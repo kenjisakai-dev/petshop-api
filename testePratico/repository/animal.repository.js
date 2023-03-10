@@ -4,7 +4,7 @@ async function insertAnimal(animal) {
   const conn = await connect();
   try {
     const sql =
-      'INSERT INTO animal (name, type, owner_id) VALUES ($1, $2, $3) RETURNING *';
+      'INSERT INTO animals (name, type, owner_id) VALUES ($1, $2, $3) RETURNING *';
     const values = [animal.name, animal.type, animal.owner_id];
     const res = await conn.query(sql, values);
     return res.rows[0];
@@ -19,7 +19,7 @@ async function updateAnimal(animal) {
   const conn = await connect();
   try {
     const sql =
-      'UPDATE animal SET name = $1, type = $2, owner_id = $3 WHERE animal_id = $4 RETURNING *';
+      'UPDATE animals SET name = $1, type = $2, owner_id = $3 WHERE animal_id = $4 RETURNING *';
     const values = [
       animal.name,
       animal.type,
@@ -38,10 +38,10 @@ async function updateAnimal(animal) {
 async function deleteAnimal(id) {
   const conn = await connect();
   try {
-    const res = await conn.query('SELECT * FROM animal WHERE animal_id = $1', [
+    const res = await conn.query('SELECT * FROM animals WHERE animal_id = $1', [
       id,
     ]);
-    await conn.query('DELETE FROM animal WHERE animal_id = $1', [id]);
+    await conn.query('DELETE FROM animals WHERE animal_id = $1', [id]);
     return res.rows[0];
   } catch (err) {
     throw err;
@@ -53,7 +53,7 @@ async function deleteAnimal(id) {
 async function getAnimals() {
   const conn = await connect();
   try {
-    const res = await conn.query('SELECT * FROM animal');
+    const res = await conn.query('SELECT * FROM animals');
     return res.rows;
   } catch (err) {
     throw err;
@@ -65,7 +65,7 @@ async function getAnimals() {
 async function getAnimalsByOwnerId(ownerId) {
   const conn = await connect();
   try {
-    const res = await conn.query('SELECT * FROM animal WHERE owner_id = $1', [
+    const res = await conn.query('SELECT * FROM animals WHERE owner_id = $1', [
       ownerId,
     ]);
     return res.rows;
@@ -79,7 +79,7 @@ async function getAnimalsByOwnerId(ownerId) {
 async function getAnimal(id) {
   const conn = await connect();
   try {
-    const res = await conn.query('SELECT * FROM animal WHERE animal_id = $1', [
+    const res = await conn.query('SELECT * FROM animals WHERE animal_id = $1', [
       id,
     ]);
     return res.rows[0];

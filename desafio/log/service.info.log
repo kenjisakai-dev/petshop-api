@@ -2,3 +2,4 @@
 07-03-2023 18:07 [petshop-api] info: [SERVICE] POST createService - {"serviceId":2,"description":"Banho","value":"80","animalId":17}
 07-03-2023 18:08 [petshop-api] info: [SERVICE] POST createService - {"serviceId":3,"description":"Banho","value":"80","animalId":17}
 09-03-2023 18:35 [petshop-api] info: [SERVICE] POST createService - {"serviceId":10,"description":"Consulta","value":"200","animalId":5}
+09-03-2023 23:09 [petshop-api] info: [SERVICE] POST createService - {"serviceId":11,"description":"Consulta","value":"200","animalId":5}

@@ -8,8 +8,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-app.use('/owner', ownerRouter);
-app.use('/animal', animalRouter);
+app.use('/owners', ownerRouter);
+app.use('/animals', animalRouter);
 
 const { combine, timestamp, label, printf } = winston.format;
 const myFormat = printf(({ level, message, label, timestamp }) => {
