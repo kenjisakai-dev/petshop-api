@@ -3,6 +3,8 @@ import cors from 'cors';
 import winston from 'winston';
 import ownerRouter from './router/owner.route.js';
 import animalRouter from './router/animal.route.js';
+import serviceRouter from './router/service.route.js';
+import postRouter from './router/post.route.js';
 
 const app = express();
 app.use(express.json());
@@ -10,6 +12,8 @@ app.use(cors());
 
 app.use('/owner', ownerRouter);
 app.use('/animal', animalRouter);
+app.use('/service', serviceRouter);
+app.use('/post', postRouter);
 
 const { combine, timestamp, label, printf } = winston.format;
 const myFormat = printf(({ level, message, label, timestamp }) => {
@@ -33,6 +37,32 @@ global.loggerAnimal = winston.createLogger({
   transports: [
     new winston.transports.File({
       filename: 'log/animal.info.log',
+      level: 'info',
+    }),
+  ],
+  format: combine(
+    label({ label: 'petshop-api' }),
+    winston.format.timestamp({ format: 'DD-MM-YYYY HH:mm' }),
+    myFormat
+  ),
+});
+global.loggerService = winston.createLogger({
+  transports: [
+    new winston.transports.File({
+      filename: 'log/service.info.log',
+      level: 'info',
+    }),
+  ],
+  format: combine(
+    label({ label: 'petshop-api' }),
+    winston.format.timestamp({ format: 'DD-MM-YYYY HH:mm' }),
+    myFormat
+  ),
+});
+global.loggerPost = winston.createLogger({
+  transports: [
+    new winston.transports.File({
+      filename: 'log/post.info.log',
       level: 'info',
     }),
   ],

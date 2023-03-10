@@ -3,7 +3,7 @@ import AnimalService from '../service/animal.service.js';
 async function createAnimal(req, res, next) {
   try {
     let animal = req.body;
-    if (!animal.name || !animal.type || !animal.owner_id) {
+    if (!animal.name || !animal.type || !animal.ownerId) {
       throw new Error('O Name, Type e Owner ID são obrigatórios.');
     }
     animal = await AnimalService.createAnimal(animal);
@@ -17,7 +17,7 @@ async function createAnimal(req, res, next) {
 async function updateAnimal(req, res, next) {
   try {
     let animal = req.body;
-    if (!animal.animal_id || !animal.name || !animal.type || !animal.owner_id) {
+    if (!animal.animalId || !animal.name || !animal.type || !animal.ownerId) {
       throw new Error('O Animal ID, Name, Type e Owner ID são obrigatórios.');
     }
     animal = await AnimalService.updateAnimal(animal);
@@ -45,16 +45,15 @@ async function deleteAnimal(req, res, next) {
 
 async function getAnimals(req, res, next) {
   try {
-    res.send(await AnimalService.getAnimals(req.query.owner_id));
+    res.send(await AnimalService.getAnimals(req.query.ownerId));
   } catch (err) {
-    res.status(400).send({ erro: err.message });
+    next(err);
   }
 }
 
 async function getAnimal(req, res, next) {
   try {
-    const animal = await AnimalService.getAnimal(req.params.id);
-    res.send(animal);
+    res.send(await AnimalService.getAnimal(req.params.id));
   } catch (err) {
     next(err);
   }

@@ -6,18 +6,14 @@ async function createOwner(owner) {
 }
 
 async function updateOwner(owner) {
-  if (await OwnerRepository.getOwner(owner.owner_id)) {
-    return await OwnerRepository.updateOwner(owner);
-  }
-  throw new Error('O Owner ID informado não existe.');
+  await getOwner(owner.ownerId);
+  return await OwnerRepository.updateOwner(owner);
 }
 
 async function deleteOwner(id) {
-  if (!(await OwnerRepository.getOwner(id))) {
-    throw new Error('O Owner ID informado não existe.');
-  }
-  const getAnimal = await AnimalRepository.getAnimalsByOwnerId(id);
-  if (getAnimal.length > 0) {
+  await getOwner(id);
+  const animal = await AnimalRepository.getAnimalsByOwnerId(id);
+  if (animal.length > 0) {
     throw new Error(
       'O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados'
     );
@@ -26,14 +22,18 @@ async function deleteOwner(id) {
 }
 
 async function getOwners() {
-  return await OwnerRepository.getOwners();
+  const owner = await OwnerRepository.getOwners();
+  if (owner.length === 0) {
+    throw new Error('Não existe owners na tabela.');
+  }
+  return owner;
 }
 
 async function getOwner(id) {
-  if (await OwnerRepository.getOwner(id)) {
-    return await OwnerRepository.getOwner(id);
+  if (!(await OwnerRepository.getOwner(id))) {
+    throw new Error('O Owner ID informado não existe');
   }
-  throw new Error('O Owner ID informado não existe');
+  return await OwnerRepository.getOwner(id);
 }
 
 export default { createOwner, updateOwner, deleteOwner, getOwners, getOwner };

@@ -1,3 +1,314 @@
 06-03-2023 14:52 [petshop-api] error: POST - password authentication failed for user "gtvnjraj"
 06-03-2023 14:52 [petshop-api] error: POST - password authentication failed for user "gtvnjraj"
 06-03-2023 14:52 [petshop-api] error: POST - password authentication failed for user "gtvnjraj"
+06-03-2023 15:57 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 15:58 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 15:59 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 16:43 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 16:44 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 16:48 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 16:49 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 16:55 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 16:55 [petshop-api] error: GET - relation "owners" does not exist
+06-03-2023 16:55 [petshop-api] error: GET - relation "owners" does not exist
+06-03-2023 16:57 [petshop-api] error: GET - relation "owners" does not exist
+06-03-2023 16:58 [petshop-api] error: GET - relation "owners" does not exist
+06-03-2023 17:10 [petshop-api] error: GET - relation "owners" does not exist
+06-03-2023 17:11 [petshop-api] error: GET - relation "owners" does not exist
+06-03-2023 17:33 [petshop-api] error: GET - relation "owners" does not exist
+06-03-2023 17:38 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 17:39 [petshop-api] error: POST - O Name, Type e Owner ID são obrigatórios.
+06-03-2023 17:39 [petshop-api] error: POST - O Name, Type e Owner ID são obrigatórios.
+06-03-2023 17:39 [petshop-api] error: POST - O Name, Type e Owner ID são obrigatórios.
+06-03-2023 17:39 [petshop-api] error: POST - O Name, Type e Owner ID são obrigatórios.
+06-03-2023 17:47 [petshop-api] error: POST - O Name, Type e Owner ID são obrigatórios.
+06-03-2023 17:48 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 17:48 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 17:49 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 17:58 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 17:59 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 18:01 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 18:02 [petshop-api] error: POST - relation "owners" does not exist
+06-03-2023 18:05 [petshop-api] error: POST - relation "owners" does not exist
+07-03-2023 13:05 [petshop-api] error: POST - relation "owners" does not exist
+07-03-2023 13:13 [petshop-api] error: POST - relation "owners" does not exist
+07-03-2023 13:20 [petshop-api] error: POST - relation "owners" does not exist
+07-03-2023 16:02 [petshop-api] error: POST - relation "owners" does not exist
+07-03-2023 16:17 [petshop-api] error: PUT - WHERE parameter "owner_id" has invalid "undefined" value
+07-03-2023 16:20 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 16:20 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 16:24 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 16:37 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 16:37 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 16:39 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 16:40 [petshop-api] error: POST - Name e Phone são obrigatórios.
+07-03-2023 16:40 [petshop-api] error: POST - Name e Phone são obrigatórios.
+07-03-2023 16:40 [petshop-api] error: PUT - Owner ID, Name e Phone são obrigatórios.
+07-03-2023 16:40 [petshop-api] error: PUT - Owner ID, Name e Phone são obrigatórios.
+07-03-2023 16:40 [petshop-api] error: PUT - Owner ID, Name e Phone são obrigatórios.
+07-03-2023 16:40 [petshop-api] error: PUT - O Owner ID informado não existe.
+07-03-2023 16:41 [petshop-api] error: GET - O Owner ID informado não existe
+07-03-2023 16:41 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 16:42 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 16:43 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 16:45 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 16:46 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 16:46 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 16:47 [petshop-api] error: DELETE - O Owner ID informado não existe.
+07-03-2023 16:47 [petshop-api] error: DELETE - O Owner ID informado não existe.
+07-03-2023 16:50 [petshop-api] error: POST - O Name, Type e Owner ID são obrigatórios.
+07-03-2023 16:50 [petshop-api] error: POST - O Name, Type e Owner ID são obrigatórios.
+07-03-2023 16:50 [petshop-api] error: POST - Expected double-quoted property name in JSON at position 41
+07-03-2023 16:50 [petshop-api] error: POST - O Name, Type e Owner ID são obrigatórios.
+07-03-2023 16:50 [petshop-api] error: POST - O Name, Type e Owner ID são obrigatórios.
+07-03-2023 16:50 [petshop-api] error: POST - O Name, Type e Owner ID são obrigatórios.
+07-03-2023 16:50 [petshop-api] error: POST - O Owner ID informado não existe.
+07-03-2023 16:51 [petshop-api] error: PUT - O Animal ID, Name, Type e Owner ID são obrigatórios.
+07-03-2023 16:51 [petshop-api] error: PUT - O Animal ID, Name, Type e Owner ID são obrigatórios.
+07-03-2023 16:51 [petshop-api] error: PUT - O Animal ID, Name, Type e Owner ID são obrigatórios.
+07-03-2023 16:51 [petshop-api] error: PUT - O Animal ID, Name, Type e Owner ID são obrigatórios.
+07-03-2023 16:51 [petshop-api] error: PUT - O Animal ID, Name, Type e Owner ID são obrigatórios.
+07-03-2023 16:51 [petshop-api] error: PUT - O Animal ID, Name, Type e Owner ID são obrigatórios.
+07-03-2023 16:51 [petshop-api] error: PUT - O Animal ID informado não existe.
+07-03-2023 16:52 [petshop-api] error: PUT - O Animal ID, Name, Type e Owner ID são obrigatórios.
+07-03-2023 16:52 [petshop-api] error: PUT - O Owner ID informado não existe.
+07-03-2023 17:04 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 17:05 [petshop-api] error: POST - Name e Phone são obrigatórios.
+07-03-2023 17:05 [petshop-api] error: POST - Name e Phone são obrigatórios.
+07-03-2023 17:11 [petshop-api] error: GET - O Owner ID informado não existe
+07-03-2023 17:11 [petshop-api] error: DELETE - O Owner ID informado não existe
+07-03-2023 17:11 [petshop-api] error: DELETE - owner is not defined
+07-03-2023 17:12 [petshop-api] error: DELETE - O Owner ID informado não existe
+07-03-2023 17:12 [petshop-api] error: DELETE - owner is not defined
+07-03-2023 17:12 [petshop-api] error: DELETE - O Owner ID informado não existe
+07-03-2023 17:12 [petshop-api] error: DELETE - O Owner ID informado não pode ser excluído, o proprietario tem animais cadastrados
+07-03-2023 17:12 [petshop-api] error: DELETE - owner is not defined
+07-03-2023 17:12 [petshop-api] error: DELETE - O Owner ID informado não existe
+07-03-2023 17:13 [petshop-api] error: DELETE - owner is not defined
+07-03-2023 17:13 [petshop-api] error: DELETE - O Owner ID informado não existe
+07-03-2023 17:17 [petshop-api] error: DELETE - O Animal ID informado não existe.
+07-03-2023 17:17 [petshop-api] error: DELETE - O Animal ID informado não existe.
+07-03-2023 17:18 [petshop-api] error: DELETE - O Owner ID informado não existe
+07-03-2023 17:18 [petshop-api] error: GET - Não existe owners na tabela.
+07-03-2023 17:18 [petshop-api] error: GET - Não existe owners na tabela.
+07-03-2023 17:18 [petshop-api] error: GET - Não existe owners na tabela.
+07-03-2023 17:19 [petshop-api] error: GET - O Owner ID informado não existe
+07-03-2023 17:34 [petshop-api] error: POST - O Name, Type e Owner ID são obrigatórios.
+07-03-2023 17:34 [petshop-api] error: POST - O Name, Type e Owner ID são obrigatórios.
+07-03-2023 17:34 [petshop-api] error: POST - O Name, Type e Owner ID são obrigatórios.
+07-03-2023 17:35 [petshop-api] error: POST - O Owner ID informado não existe.
+07-03-2023 17:35 [petshop-api] error: PUT - O Animal ID, Name, Type e Owner ID são obrigatórios.
+07-03-2023 17:35 [petshop-api] error: PUT - O Animal ID, Name, Type e Owner ID são obrigatórios.
+07-03-2023 17:35 [petshop-api] error: PUT - O Animal ID, Name, Type e Owner ID são obrigatórios.
+07-03-2023 17:35 [petshop-api] error: PUT - O Animal ID, Name, Type e Owner ID são obrigatórios.
+07-03-2023 17:35 [petshop-api] error: PUT - O Animal ID informado não existe.
+07-03-2023 17:36 [petshop-api] error: PUT - O Owner ID informado não existe.
+07-03-2023 17:36 [petshop-api] error: GET - O Animal ID informado não existe.
+07-03-2023 17:38 [petshop-api] error: DELETE - O Animal ID informado não existe.
+07-03-2023 17:38 [petshop-api] error: GET - O Animal ID informado não existe.
+07-03-2023 17:38 [petshop-api] error: GET - O Animal ID informado não existe.
+07-03-2023 17:39 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 17:39 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 17:39 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 17:39 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 17:39 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 17:39 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 17:39 [petshop-api] error: GET - Não existe Animals na tabela.
+07-03-2023 17:40 [petshop-api] error: DELETE - O Animal ID informado não existe.
+07-03-2023 17:40 [petshop-api] error: GET - Não existe Animals na tabela.
+07-03-2023 17:40 [petshop-api] error: GET - Não existe Animals na tabela.
+07-03-2023 17:40 [petshop-api] error: GET - O Animal ID informado não existe.
+07-03-2023 17:40 [petshop-api] error: GET - O Owner ID informado não existe.
+07-03-2023 17:40 [petshop-api] error: GET - O Owner ID informado não existe.
+07-03-2023 17:40 [petshop-api] error: GET - O Owner ID informado não existe.
+07-03-2023 17:40 [petshop-api] error: GET - O Owner ID informado não existe.
+07-03-2023 17:41 [petshop-api] error: GET - O Owner ID informado não tem Animals Cadastrados.
+07-03-2023 18:07 [petshop-api] error: POST - Expected ',' or '}' after property value in JSON at position 41
+07-03-2023 18:07 [petshop-api] error: POST - O Description, Value e Animal ID são obrigatórios.
+07-03-2023 18:07 [petshop-api] error: POST - O Description, Value e Animal ID são obrigatórios.
+07-03-2023 18:07 [petshop-api] error: POST - O Description, Value e Animal ID são obrigatórios.
+07-03-2023 18:08 [petshop-api] error: POST - O Animal ID informado não existe.
+07-03-2023 18:40 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:40 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:40 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:40 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:40 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:40 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:40 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:40 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:40 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:40 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:42 [petshop-api] error: GET - O Owner ID informado não existe
+07-03-2023 18:46 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:46 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:46 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:46 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 18:46 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 19:02 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 19:02 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 19:02 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 19:02 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 19:02 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 19:02 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 19:02 [petshop-api] error: GET - O Owner ID informado não existe.
+07-03-2023 19:02 [petshop-api] error: GET - O Owner ID informado não existe.
+07-03-2023 19:03 [petshop-api] error: GET - O Owner ID informado não tem Animals cadastrados.
+07-03-2023 19:03 [petshop-api] error: GET - O Owner ID informado não tem Animals cadastrados.
+07-03-2023 19:06 [petshop-api] error: GET - owner.animalId is not iterable
+07-03-2023 19:12 [petshop-api] error: GET - Cannot read properties of undefined (reading 'animalId')
+07-03-2023 19:14 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 19:17 [petshop-api] error: GET - Cannot read properties of undefined (reading '0')
+07-03-2023 19:22 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 19:22 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 19:22 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 19:22 [petshop-api] error: GET - getaddrinfo EAI_AGAIN john.db.elephantsql.com
+07-03-2023 19:22 [petshop-api] error: GET - WHERE parameter "animal_id" has invalid "undefined" value
+07-03-2023 19:22 [petshop-api] error: GET - WHERE parameter "animal_id" has invalid "undefined" value
+07-03-2023 19:23 [petshop-api] error: GET - WHERE parameter "animal_id" has invalid "undefined" value
+07-03-2023 19:23 [petshop-api] error: GET - O Animal ID informado não existe.
+07-03-2023 19:23 [petshop-api] error: GET - WHERE parameter "animal_id" has invalid "undefined" value
+07-03-2023 19:25 [petshop-api] error: GET - animal.animalId is not iterable
+07-03-2023 19:25 [petshop-api] error: GET - animal.animalId is not iterable
+07-03-2023 19:27 [petshop-api] error: GET - Cannot read properties of undefined (reading 'forEach')
+07-03-2023 19:28 [petshop-api] error: GET - Cannot read properties of undefined (reading 'forEach')
+08-03-2023 01:00 [petshop-api] error: GET - services is not associated to animals!
+08-03-2023 13:30 [petshop-api] error: GET - services is not associated to animals!
+08-03-2023 13:34 [petshop-api] error: GET - Client is not defined
+08-03-2023 13:34 [petshop-api] error: GET - Client is not defined
+08-03-2023 13:34 [petshop-api] error: GET - services is not associated to animals!
+08-03-2023 17:40 [petshop-api] error: GET - Invalid status code: 17
+08-03-2023 17:54 [petshop-api] error: GET - animal.animalId is not iterable
+08-03-2023 17:54 [petshop-api] error: GET - animal.animalId is not iterable
+08-03-2023 17:55 [petshop-api] error: GET - animal.animalId is not iterable
+08-03-2023 17:56 [petshop-api] error: GET - animal.animalId is not iterable
+08-03-2023 18:05 [petshop-api] error: GET - Cannot read properties of undefined (reading 'foreach')
+08-03-2023 18:07 [petshop-api] error: GET - Cannot read properties of undefined (reading 'foreach')
+08-03-2023 20:48 [petshop-api] error: GET - services is not associated to services!
+08-03-2023 20:53 [petshop-api] error: GET - services is not associated to services!
+08-03-2023 20:53 [petshop-api] error: GET - O Owner ID informado não existe.
+08-03-2023 20:53 [petshop-api] error: GET - O Owner ID informado não tem Animals cadastrados.
+08-03-2023 23:54 [petshop-api] error: POST - O Titulo, Conteúdo, Nome do Comentáio e Conteúdo do Comentário são obrigatórios.
+08-03-2023 23:54 [petshop-api] error: POST - O Titulo, Conteúdo, Nome do Comentáio e Conteúdo do Comentário são obrigatórios.
+08-03-2023 23:55 [petshop-api] error: POST - connect.connectMongoDB is not a function
+08-03-2023 23:55 [petshop-api] error: POST - connect.connectMongoDB is not a function
+08-03-2023 23:55 [petshop-api] error: POST - connect.connectMongoDB is not a function
+08-03-2023 23:57 [petshop-api] error: POST - connect.connectMongoDB is not a function
+08-03-2023 23:57 [petshop-api] error: POST - connect.connectMongoDB is not a function
+08-03-2023 23:57 [petshop-api] error: POST - connect.connection is not a function
+08-03-2023 23:57 [petshop-api] error: POST - connect.connection is not a function
+08-03-2023 23:59 [petshop-api] error: POST - connect.getClient is not a function
+09-03-2023 00:09 [petshop-api] error: POST - O Title e Content são obrigatórios.
+09-03-2023 02:01 [petshop-api] error: POST - O ID, Name e Content são obrigatórios.
+09-03-2023 02:01 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:03 [petshop-api] error: POST - O Post Id informado não existe.
+09-03-2023 02:03 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:03 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:06 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:08 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:09 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:09 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:09 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:09 [petshop-api] error: GET - O Post Id informado não existe.
+09-03-2023 02:10 [petshop-api] error: GET - Cannot access 'getPost' before initialization
+09-03-2023 02:10 [petshop-api] error: GET - Bad control character in string literal in JSON at position 17
+09-03-2023 02:10 [petshop-api] error: GET - Cannot access 'getPost' before initialization
+09-03-2023 02:10 [petshop-api] error: GET - Cannot access 'getPost' before initialization
+09-03-2023 02:12 [petshop-api] error: GET - PostRepository.createComment is not a function
+09-03-2023 02:19 [petshop-api] error: PUT - O Post ID informado não existe.
+09-03-2023 02:20 [petshop-api] error: PUT - O Post ID informado não existe.
+09-03-2023 02:20 [petshop-api] error: PUT - O Post ID informado não existe.
+09-03-2023 02:20 [petshop-api] error: PUT - O Post ID informado não existe.
+09-03-2023 02:21 [petshop-api] error: PUT - O Post ID informado não existe.
+09-03-2023 02:21 [petshop-api] error: PUT - O Post ID informado não existe.
+09-03-2023 02:22 [petshop-api] error: PUT - O Post ID informado não existe.
+09-03-2023 02:22 [petshop-api] error: PUT - O Post ID informado não existe.
+09-03-2023 02:24 [petshop-api] error: PUT - O Post ID informado não existe.
+09-03-2023 02:24 [petshop-api] error: PUT - O Post ID informado não existe.
+09-03-2023 02:25 [petshop-api] error: PUT - Invalid status code: NaN
+09-03-2023 02:25 [petshop-api] error: PUT - Invalid status code: NaN
+09-03-2023 02:29 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:29 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:29 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:29 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:30 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:32 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:32 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:32 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:35 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:35 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:35 [petshop-api] error: POST - Cannot access 'getPost' before initialization
+09-03-2023 02:38 [petshop-api] error: POST - O ID, Name e Content são obrigatórios.
+09-03-2023 02:39 [petshop-api] error: POST - posts.comments.push is not a function
+09-03-2023 02:39 [petshop-api] error: POST - posts.comments.push is not a function
+09-03-2023 02:40 [petshop-api] error: POST - O ID, Name e Content são obrigatórios.
+09-03-2023 02:40 [petshop-api] error: POST - O ID, Name e Content são obrigatórios.
+09-03-2023 02:40 [petshop-api] error: POST - posts.comments.push is not a function
+09-03-2023 02:40 [petshop-api] error: POST - posts.comments.push is not a function
+09-03-2023 02:41 [petshop-api] error: POST - posts.comments.push is not a function
+09-03-2023 02:41 [petshop-api] error: POST - posts.comments.push is not a function
+09-03-2023 02:41 [petshop-api] error: POST - posts.comments.push is not a function
+09-03-2023 02:48 [petshop-api] error: POST - postId is not defined
+09-03-2023 02:48 [petshop-api] error: POST - postId is not defined
+09-03-2023 02:49 [petshop-api] error: POST - postId is not defined
+09-03-2023 02:49 [petshop-api] error: POST - postId is not defined
+09-03-2023 15:59 [petshop-api] error: POST - O Title e Content são obrigatórios.
+09-03-2023 16:06 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:06 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:06 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:07 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:07 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:07 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:07 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:07 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:07 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:07 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:07 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:07 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:07 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:07 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:08 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:08 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:08 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:08 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:09 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:09 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:09 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:09 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:10 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:10 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:10 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:10 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:10 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:10 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:11 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:11 [petshop-api] error: POST - O Title, Content, Comments, name e comment são obrigatórios.
+09-03-2023 16:13 [petshop-api] error: POST - name is not defined
+09-03-2023 16:13 [petshop-api] error: POST - name is not defined
+09-03-2023 16:13 [petshop-api] error: POST - O Title, Content e Comments são obrigatórios.
+09-03-2023 16:13 [petshop-api] error: POST - O Title, Content e Comments são obrigatórios.
+09-03-2023 16:13 [petshop-api] error: POST - Expected double-quoted property name in JSON at position 94
+09-03-2023 16:13 [petshop-api] error: POST - O Title, Content e Comments são obrigatórios.
+09-03-2023 16:27 [petshop-api] error: POST - O ID e Comments são obrigatórios.
+09-03-2023 16:28 [petshop-api] error: POST - O Post ID informado não existe.
+09-03-2023 16:37 [petshop-api] error: POST - O ID informado não existe.
+09-03-2023 16:40 [petshop-api] error: POST - O ID informado não existe.
+09-03-2023 16:54 [petshop-api] error: POST - O ID informado não existe.
+09-03-2023 16:54 [petshop-api] error: POST - O ID informado não existe.
+09-03-2023 16:55 [petshop-api] error: POST - O ID informado não existe.
+09-03-2023 16:57 [petshop-api] error: POST - O ID informado não existe.
+09-03-2023 16:57 [petshop-api] error: POST - O ID informado não existe.
+09-03-2023 17:06 [petshop-api] error: POST - updatePost is not defined
+09-03-2023 17:06 [petshop-api] error: POST - updatePost is not defined
+09-03-2023 17:07 [petshop-api] error: POST - updatePost is not defined
+09-03-2023 17:24 [petshop-api] error: POST - updatePost is not defined
+09-03-2023 17:24 [petshop-api] error: POST - updatePost is not defined
+09-03-2023 17:35 [petshop-api] error: POST - connect.findOne is not a function
+09-03-2023 17:39 [petshop-api] error: POST - Cannot read properties of null (reading 'comments')
+09-03-2023 17:39 [petshop-api] error: POST - Cannot read properties of null (reading 'comments')
+09-03-2023 17:40 [petshop-api] error: POST - Cannot read properties of null (reading 'comments')
+09-03-2023 18:39 [petshop-api] error: GET - Cannot read properties of null (reading 'length')
+09-03-2023 18:39 [petshop-api] error: GET - Cannot read properties of null (reading 'length')
+09-03-2023 18:39 [petshop-api] error: GET - Cannot read properties of null (reading 'length')
+09-03-2023 18:39 [petshop-api] error: GET - Cannot read properties of null (reading 'length')
+09-03-2023 18:41 [petshop-api] error: GET - O Owner ID informado não tem Animals cadastrados.
+09-03-2023 18:41 [petshop-api] error: GET - O Owner ID informado não tem Animals cadastrados.

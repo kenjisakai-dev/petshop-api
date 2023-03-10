@@ -17,7 +17,7 @@ async function createOwner(req, res, next) {
 async function updateOwner(req, res, next) {
   try {
     let owner = req.body;
-    if (!owner.owner_id || !owner.name || !owner.phone) {
+    if (!owner.ownerId || !owner.name || !owner.phone) {
       throw new Error('Owner ID, Name e Phone são obrigatórios.');
     }
     owner = await OwnerService.updateOwner(owner);
@@ -30,7 +30,7 @@ async function updateOwner(req, res, next) {
 
 async function deleteOwner(req, res, next) {
   try {
-    let owner = await OwnerService.deleteOwner(req.params.id);
+    const owner = await OwnerService.deleteOwner(req.params.id);
     res.send({
       message: 'O owner ID informado foi excluído com sucesso.',
       owner: owner,
@@ -51,8 +51,7 @@ async function getOwners(req, res, next) {
 
 async function getOwner(req, res, next) {
   try {
-    const owner = await OwnerService.getOwner(req.params.id);
-    res.send(owner);
+    res.send(await OwnerService.getOwner(req.params.id));
   } catch (err) {
     next(err);
   }
