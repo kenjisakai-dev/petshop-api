@@ -3,9 +3,9 @@ import postController from '../controller/post.controller.js';
 
 const router = express.Router();
 
-router.post('/', postController.createPost);
-router.get('/', postController.getPosts);
+router.post('/create', postController.createPost);
+router.get('/info/:_id', postController.getInfoPost);
 
-router.post('/comment', postController.createComment);
+router.post('/createComment', postController.createComment);
 
 export default router;

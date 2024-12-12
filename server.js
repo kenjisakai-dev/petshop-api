@@ -21,10 +21,10 @@ app.post('/database/drop', async (req, res) => {
     res.send('Database Drop');
 });
 
-app.use('/owner', ownerRouter);
-app.use('/animal', animalRouter);
-app.use('/service', serviceRouter);
-app.use('/post', postRouter);
+app.use('/api/v1/owner', ownerRouter);
+app.use('/api/v1/animal', animalRouter);
+app.use('/api/v1/service', serviceRouter);
+app.use('/api/v1/post', postRouter);
 
 app.use((err, req, res, next) => {
     const route = req.url.split('/')[1].toUpperCase();

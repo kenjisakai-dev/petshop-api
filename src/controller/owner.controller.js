@@ -20,23 +20,19 @@ async function createOwner(req, res, next) {
     }
 }
 
-async function getOwners(req, res, next) {
+async function getInfoOwner(req, res, next) {
     try {
-        const response = await ownerService.getOwners();
+        const { cod_owner } = req.params;
 
-        logger.info('[OWNER] GET - Proprietários obtidos com sucesso.');
+        if (!cod_owner) {
+            throw new Error('Código do proprietário é obrigatório.');
+        }
 
-        return res.status(200).send(response);
-    } catch (err) {
-        next(err);
-    }
-}
+        const response = await ownerService.getInfoOwner(cod_owner);
 
-async function getOwner(req, res, next) {
-    try {
-        const response = await ownerService.getOwner(req.params.cod_owner);
-
-        logger.info('[OWNER] GET - Proprietário obtido com sucesso.');
+        logger.info(
+            '[OWNER] GET - Informações do proprietário foram obtidas com sucesso.',
+        );
 
         return res.status(200).send(response);
     } catch (err) {
@@ -55,7 +51,7 @@ async function updateOwner(req, res, next) {
 
         const response = await ownerService.updateOwner(owner);
 
-        logger.info('[OWNER] PATCH- Proprietário atualizado com sucesso.');
+        logger.info('[OWNER] PATCH - Proprietário atualizado com sucesso.');
 
         return res.status(200).send(response);
     } catch (err) {
@@ -65,7 +61,6 @@ async function updateOwner(req, res, next) {
 
 export default {
     createOwner,
-    getOwners,
-    getOwner,
+    getInfoOwner,
     updateOwner,
 };

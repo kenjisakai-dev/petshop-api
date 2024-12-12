@@ -28,5 +28,6 @@ const Animal = db.define(
 );
 
 Animal.belongsTo(Owner, { foreignKey: 'cod_owner' });
+Owner.hasMany(Animal, { foreignKey: 'cod_owner' });
 
 export default Animal;

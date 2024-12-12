@@ -24,5 +24,6 @@ const Service = db.define(
 );
 
 Service.belongsTo(Animal, { foreignKey: 'cod_animal' });
+Animal.hasMany(Service, { foreignKey: 'cod_animal' });
 
 export default Service;

@@ -10,16 +10,6 @@ async function createOwner(owner) {
     return await ownerRepository.createOwner(owner);
 }
 
-async function getOwners() {
-    const owners = await ownerRepository.getOwners();
-
-    if (owners.length === 0) {
-        throw new Error('Não existe proprietários cadastrados.');
-    }
-
-    return owners;
-}
-
 async function getOwner(id) {
     const owner = await ownerRepository.getOwner(id);
 
@@ -30,6 +20,11 @@ async function getOwner(id) {
     return owner;
 }
 
+async function getInfoOwner(cod_owner) {
+    await getOwner(cod_owner);
+    return ownerRepository.getInfoOwner(cod_owner);
+}
+
 async function updateOwner(owner) {
     await getOwner(owner.cod_owner);
 
@@ -38,7 +33,7 @@ async function updateOwner(owner) {
 
 export default {
     createOwner,
-    getOwners,
     getOwner,
+    getInfoOwner,
     updateOwner,
 };

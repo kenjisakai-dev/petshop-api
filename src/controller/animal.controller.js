@@ -22,21 +22,11 @@ async function createAnimal(req, res, next) {
     }
 }
 
-async function getAnimals(req, res, next) {
+async function getInfoAnimal(req, res, next) {
     try {
-        const response = await animalService.getAnimals(req.query.ownerId);
-
-        logger.info('[ANIMAL] GET - Animais obtidos com sucesso.');
-
-        return res.status(200).send(response);
-    } catch (err) {
-        next(err);
-    }
-}
-
-async function getAnimal(req, res, next) {
-    try {
-        const response = await animalService.getAnimal(req.params.cod_animal);
+        const response = await animalService.getInfoAnimal(
+            req.params.cod_animal,
+        );
 
         logger.info('[ANIMAL] GET - Animal obtido com sucesso.');
 
@@ -67,7 +57,6 @@ async function updateAnimal(req, res, next) {
 
 export default {
     createAnimal,
-    getAnimals,
-    getAnimal,
+    getInfoAnimal,
     updateAnimal,
 };

@@ -7,16 +7,6 @@ async function createAnimal(animal) {
     return await animalRepository.createAnimal(animal);
 }
 
-async function getAnimals() {
-    const animals = await animalRepository.getAnimals();
-
-    if (animals.length === 0) {
-        throw new Error('Não existe animais cadastrados.');
-    }
-
-    return animals;
-}
-
 async function getAnimal(cod_animal) {
     const animal = await animalRepository.getAnimal(cod_animal);
 
@@ -25,6 +15,11 @@ async function getAnimal(cod_animal) {
     }
 
     return animal;
+}
+
+async function getInfoAnimal(cod_animal) {
+    await getAnimal(cod_animal);
+    return await animalRepository.getInfoAnimal(cod_animal);
 }
 
 async function updateAnimal(animal) {
@@ -39,7 +34,7 @@ async function updateAnimal(animal) {
 
 export default {
     createAnimal,
-    getAnimals,
     getAnimal,
+    getInfoAnimal,
     updateAnimal,
 };

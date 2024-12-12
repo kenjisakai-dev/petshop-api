@@ -7,17 +7,31 @@ async function createService(service) {
     return await serviceRepository.createService(service);
 }
 
-async function getServices() {
-    const services = await serviceRepository.getServices();
+async function getService(cod_service) {
+    const service = await serviceRepository.getService(cod_service);
 
-    if (services.length === 0) {
-        throw new Error('Não existe serviços cadastrados.');
+    if (!service) {
+        throw new Error('Serviço não foi encontrado.');
     }
 
-    return services;
+    return service;
+}
+
+async function getInfoService(cod_service) {
+    await getService(cod_service);
+
+    return await serviceRepository.getInfoService(cod_service);
+}
+
+async function updateService(service) {
+    await animalService.getAnimal(service.cod_animal);
+
+    return await serviceRepository.updateService(service);
 }
 
 export default {
     createService,
-    getServices,
+    getService,
+    getInfoService,
+    updateService,
 };

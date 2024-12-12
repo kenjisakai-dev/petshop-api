@@ -5,25 +5,15 @@ async function createPost(post) {
 }
 
 async function createComment(_id, comment) {
-    const post = await getPost(_id);
+    const post = await getInfoPost(_id);
 
     post.comments.push(comment);
 
     return await postRepository.createComment(_id, post);
 }
 
-async function getPosts() {
-    const posts = await postRepository.getPosts();
-
-    if (posts.length === 0) {
-        throw new Error('Não existe posts cadastrados.');
-    }
-
-    return posts;
-}
-
-async function getPost(_id) {
-    const post = await postRepository.getPost(_id);
+async function getInfoPost(_id) {
+    const post = await postRepository.getInfoPost(_id);
 
     if (!post) {
         throw new Error('Post não foi encontrado.');
@@ -35,6 +25,5 @@ async function getPost(_id) {
 export default {
     createPost,
     createComment,
-    getPosts,
-    getPost,
+    getInfoPost,
 };

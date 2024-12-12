@@ -43,9 +43,9 @@ async function createComment(req, res, next) {
     }
 }
 
-async function getPosts(req, res, next) {
+async function getInfoPost(req, res, next) {
     try {
-        const response = await postService.getPosts();
+        const response = await postService.getInfoPost(req.params._id);
 
         logger.info('[POST] GET - Posts obtidos com sucesso.');
 
@@ -58,5 +58,5 @@ async function getPosts(req, res, next) {
 export default {
     createPost,
     createComment,
-    getPosts,
+    getInfoPost,
 };
